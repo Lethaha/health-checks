@@ -25,3 +25,7 @@ Git pull is used to fetch the newest updates from a remote repository
 
 get information about the remote/ see remote and local branches too
 
+
+*git branch -r*
+
+remote branches that our repo is currently tracking
