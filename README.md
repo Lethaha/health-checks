@@ -88,5 +88,13 @@ Lists remote branches; can be combined with other branch arguments to manage rem
   ## Rebasing Your Changes
   
   This makes debugging easier and prevents three-way merges by transferring the completed work from one branch to another.
+  *git checkout refactor*
+  check graph as follows
+  *git log --graph --oneline --all*
+  git checkout refactor
+  git rebase main
+  one refactor is complete 
+  *git push --delete origin refactor*
+  *git branch -d refactor*
 
 
