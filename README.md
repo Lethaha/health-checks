@@ -74,5 +74,19 @@ Lists remote branches; can be combined with other branch arguments to manage rem
   
 *git log -p origin/main*
  show all logs in remote repository
+  
+  ## pushing remote branches
+  *git checkout -b refactor*
+  create and check out new branch on local repo
+  
+  *git commit -a -m 'creat wrappter function for check_disk_full'*
+  commit changes
+  
+  *git push -u origin refactor*
+  push branch to remote repository to allow collaborators to check code before merge with main. the -u is for upstream   
+  
+  ## Rebasing Your Changes
+  
+  This makes debugging easier and prevents three-way merges by transferring the completed work from one branch to another.
 
 
