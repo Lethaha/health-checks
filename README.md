@@ -55,4 +55,10 @@ Downloads specific objects
 
 Lists remote branches; can be combined with other branch arguments to manage remote branches
 
+ *git log --graph --oneline --all*
+  show the graph of logs with remote and local
+  
+*git log -p origin/main*
+ show all logs in remote repository
+
 
