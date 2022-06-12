@@ -55,7 +55,21 @@ Downloads specific objects
 
 Lists remote branches; can be combined with other branch arguments to manage remote branches
 
- *git log --graph --oneline --all*
+
+  
+  
+## pull merge and push cycle
+  try git push
+  
+  if fail: to the following
+  *git pull*
+  pull changes in remote
+  
+  if conflict
+  resolve conflict by editting file and then doing a git add followed by a git commit which will merge changes. the git push successfully.
+  
+  
+  *git log --graph --oneline --all*
   show the graph of logs with remote and local
   
 *git log -p origin/main*
